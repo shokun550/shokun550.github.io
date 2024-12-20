@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 2rem;
+        }
+
+        header {
+            background-color: black;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h2 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        #main-container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #unique-highlight {
+            padding: 15px;
+            border: 2px dashed #007BFF;
+            background-color: gainsboro;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .content-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        .content-section:hover {
+            background-color: #e9ecef;
+        }
+
+        .content-header {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #007BFF;
+        }
+
+        .content-body {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .content-section .content-body strong {
+            color: black;
+        }
+
+        .decorated:hover {
+            background-color: gainsboro;
+        }
+
+        .flex-container {
+            display: flex;
+            gap: 10px;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .decorated-box {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #6c757d;
+            background-color: #f8f9fa;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 1rem;
+            text-align: center;
+            font-size: 0.875rem;
+            background-color: black;
+            color: #fff;
+        }
+
+        
+        .resize-1 {
+            width: 250px;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px; 
+        }
+
+        
+        .resize-2 {
+            width: auto;
+            height: 35px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>About me Website</h2>
+    </header>
+    <h1><strong>Profile</strong></h1>
+    <div id="main-container">
+        <img src="unnamed.jpg" class="resize-1" alt="Profile Picture">
+        <div class="content-section">
+            <div class="content-header"><strong>ชื่อ-สกุล</strong></div>
+            <div class="content-body">
+                <strong>นายชยากร วิโนทัย</strong>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="content-header"><strong>ชื่อเล่น</strong></div>
+            <div class="content-body">
+                <strong>โชกุน</strong>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="content-header"><strong>วันเกิด</strong></div>
+            <div class="content-body">
+                <strong>4 กุมภาพันธ์ พ.ศ.2550</strong>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="content-header"><strong>สถานศึกษา</strong></div>
+            <div class="content-body">
+                <strong>โรงเรียนบ้านบึง"อุตสาหกรรมนุเคราะห์"</strong>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="content-header"><strong>แผนการเรียน</strong></div>
+            <div class="content-body">
+                <strong>วิทยาศาสตร์-คณิตศาสตร์ (Pre-Engineering)</strong>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="decorated-box decorated"><strong>หมู่เลือด AB</strong></div>
+            <div class="decorated-box decorated"><strong>เชื้อชาติ ไทย</strong></div>
+            <div class="decorated-box decorated"><strong>สัญชาติ ไทย</strong></div>
+        </div>
+        <div id="unique-highlight">
+            <p><strong>GPAX 3.90</strong></p>
+        </div>
+     </div>
+
+    <footer>
+        <img src="Logo_big.webp" class="resize-2" alt="Logo">
+    </footer>
+</body>
+</html>
